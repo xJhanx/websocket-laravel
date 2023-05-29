@@ -25,7 +25,7 @@ RUN composer require laravel/octane spiral/roadrunner
 RUN composer require pusher/pusher-php-server
 
 RUN npm install --global yarn
-RUN npm install --save-dev laravel-echo@7.0.0 pusher-js
+RUN npm install --save-dev laravel-echo pusher-js@7.0.0
 RUN yarn add postcss@latest
 
 RUN yarn
